@@ -1,5 +1,5 @@
-# Orchestrator-Based Saga in Node.js
-This repo demo Orchestrator-Based Saga in Node.js
+# Choreography-Based Saga in Node.js
+This repo demo Choreography-Based Saga in Node.js
 
 ## Introduce
 
@@ -13,7 +13,7 @@ E-commerce Order Management System. We will use the same example as before, wher
 - `Inventory Service`: Listens to PaymentProcessed, reserves stock, and emits a StockReserved or StockUnavailable event.
 - `Notification Service`: Listens to StockReserved to send a confirmation email.
 
-## Diagram:
+##
 ```mermaid
 sequenceDiagram
     participant OrderService
